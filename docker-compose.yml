@@ -1,0 +1,7 @@
+version: '3'
+services:
+  web:
+    container_name: reactapp
+    build: .
+    ports:
+      - 8080:80
